@@ -1,6 +1,6 @@
     body {
         font-size: 18px;
-        background-color: #E58055;
+        background-color: white;
         font-family: sans-serif;
     }
     
@@ -20,7 +20,7 @@
         display: block;
     }
     
-    ul>li {
+    nav>ul>li {
         display: inline-block;
         text-align: right;
     }
@@ -45,42 +45,38 @@
     
     .services>h3 {
         text-align: center;
-        color: indigo;
     }
     
     .about>h3 {
         text-align: center;
-        color: indigo;
     }
     
     footer {
         display: flex;
+        background-color: grey;
     }
     
-    .social {
-        align-items: flex-end;
+    .contact>ul>li {
+        display: flex
     }
     
-    .social>h3 {
-        text-align: end;
-    }
-    
-    .social>ul {
+    .social>ul>li {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        flex-direction: row;
     }
     
-    .social>ul>li>#twitter {
-        height: 3%;
-        width: 3%;
+    #insta {
+        height: 4%;
+        width: 4%;
     }
     
-    .social>ul>li>#facebook {
-        height: 3%;
-        width: 3%;
+    #twit {
+        height: 4%;
+        width: 4%;
     }
     
-    .social>ul>li>#insta {
-        height: 2%;
-        width: 3%;
+    #face {
+        height: 4%;
+        width: 4%;
     }
