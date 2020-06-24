@@ -53,12 +53,34 @@
         color: indigo;
     }
     
-    footer>ul>li>#twitter {
+    footer {
+        display: flex;
+    }
+    
+    .social {
+        align-items: flex-end;
+    }
+    
+    .social>h3 {
+        text-align: end;
+    }
+    
+    .social>ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .social>ul>li>#twitter {
         height: 3%;
         width: 3%;
     }
     
-    footer>ul>li>#facebook {
+    .social>ul>li>#facebook {
+        height: 3%;
+        width: 3%;
+    }
+    
+    .social>ul>li>#insta {
         height: 2%;
-        width: 2%;
+        width: 3%;
     }
