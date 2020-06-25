@@ -1,11 +1,11 @@
     body {
         font-size: 18px;
-        background-color: white;
         font-family: sans-serif;
     }
     
-    .bars {
-        background-image: url();
+    body>img {
+        height: 70px;
+        width: 100%;
     }
     
     nav {
@@ -27,11 +27,6 @@
     nav>ul>li {
         display: inline-block;
         text-align: right;
-    }
-    
-    form {
-        display: flex;
-        justify-content: center;
     }
     
     h1 {
@@ -60,32 +55,33 @@
         text-align: center;
     }
     
+    section {
+        display: flex;
+        background-color: ivory;
+        justify-content: space-between;
+    }
+    
+    footer {
+        padding: 40px;
+    }
+    
+    form {
+        display: inherit;
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .icons {
+        padding: 20px;
+    }
+    
     footer {
         display: flex;
-        background-color: grey;
+        flex-direction: column;
+        align-items: center;
     }
     
-    .contact>ul>li {
-        display: flex
-    }
-    
-    .social>ul>li {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    #insta {
-        height: 4%;
-        width: 4%;
-    }
-    
-    #twit {
-        height: 4%;
-        width: 4%;
-    }
-    
-    #face {
-        height: 4%;
-        width: 4%;
+    .icons>p {
+        font-size: small;
+        font-family: fantasy;
     }
