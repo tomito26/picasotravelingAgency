@@ -4,6 +4,10 @@
         font-family: sans-serif;
     }
     
+    .bars {
+        background-image: url();
+    }
+    
     nav {
         max-width: 960px;
         margin: 0 auto;
